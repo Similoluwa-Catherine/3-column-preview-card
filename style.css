@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5.5em 2em;
+    font-size: 15px;
+}
+
+#card-one {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 3em;
+}
+
+#card-two {
+    background-color: hsl(184, 100%, 22%);
+    padding: 3em;
+}
+
+#card-three {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 3em;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+button {
+    border-radius: 60px;
+    border: none;
+    padding: 1em 1.5em;
+    width: 150px;
+    margin-top: 30px;
+    height: 50px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.btn-one {
+    color:hsl(31, 77%, 52%);
+}
+
+.btn-two {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-three {
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:1000px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 6.5em 7em;
+        height: 100vh;
+    }
+
+    #card-one {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+
+    #card-three {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    h1 {
+        margin-top: 20px;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+
+    button {
+        margin-top: 60px;
+    }
+
+
+}
